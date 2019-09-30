@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            background: url('../img/bgx.png') 0 0 / 100% 100% no-repeat;
+        }
+
+        .bg {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: url('../img/address.png')50px 200px/ 20px 550px no-repeat;
+        }
+
+        .bg>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 220px;
+        }
+
+        .text {
+            height: 62px;
+            width: 793px;
+            margin-bottom: 28px;
+        }
+
+        p {
+            color: #ffffff;
+            font-size: 12px;
+            /* font-weight: bold; */
+            padding: 2px;
+            margin: 0;
+        }
+
+        button {
+            color: #ffffff;
+            font-size: 16px;
+            border: none;
+            width: 200px;
+            height: 50px;
+            background-color: rgba(46, 130, 255, 1);
+            outline: none;
+            cursor: pointer;
+            border-radius: 50px;
+            padding: 0;
+            transition: box-shadow 0.3s ease-out;
+        }
+
+        button:hover {
+            box-shadow: 0 0 20px 2px rgb(46, 130, 255);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div>
+            <img class="text" src="../img/Stuben am Arlberg, Austria .png" alt="">
+            <p>This long-hiking ski resort is Stuben-Arlberg, and the village's scenery may be similar to what you
+                imagined when reading the “Historic Alpine Village”.
+            </p>
+            <p>Near the Arlberg Pass, this Austrian village is a must for ski enthusiasts.
+            </p>
+            <p> It is also the birthplace of ski instructor Schneider, whose methods and techniques have spread
+                throughout the world in the 20th century.
+            </p>
+        </div>
+
+        <button>
+                Start
+        </button>
+    </div>
+
+</body>
+
+</html>
